@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="custom">
+  <channel id="NBCNewYorkNews">
+    <display-name>NBC New York News</display-name>
+  </channel>
+  <programme start="20261121000000 +0000" stop="20261122000000 +0000" channel="NBCNewYorkNews">
+    <title lang="en">NBC New York News</title>
+    <desc lang="en">NBC New York News</desc>
+  </programme>
+</tv>
