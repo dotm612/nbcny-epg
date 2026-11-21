@@ -1,0 +1,32 @@
+name: Update EPG
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate epg.xml
+        run: |
+          {
+            echo '<?xml version="1.0" encoding="UTF-8"?>'
+            echo '<tv generator-info-name="custom">'
+            echo '<channel id="NBCNewYorkNews"><display-name>NBC New York News</display-name></channel>'
+            for i in $(seq -1 30); do
+              s=$(date -u -d "today + $i days" +%Y%m%d)000000
+              e=$(date -u -d "today + $((i+1)) days" +%Y%m%d)000000
+              echo "<programme start=\"$s +0000\" stop=\"$e +0000\" channel=\"NBCNewYorkNews\"><title lang=\"en\">NBC New York News</title><desc lang=\"en\">NBC New York News</desc></programme>"
+            done
+            echo '</tv>'
+          } > epg.xml
+      - name: Commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add epg.xml
+          git diff --staged --quiet || git commit -m "Update EPG"
+          git push
