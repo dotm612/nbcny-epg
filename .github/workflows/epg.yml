@@ -16,7 +16,7 @@ jobs:
             echo '<?xml version="1.0" encoding="UTF-8"?>'
             echo '<tv generator-info-name="custom">'
             echo '<channel id="NBCNewYorkNews"><display-name>NBC New York News</display-name></channel>'
-            for i in $(seq -1 30); do
+            for i in $(seq -1 36500); do
               s=$(date -u -d "today + $i days" +%Y%m%d)000000
               e=$(date -u -d "today + $((i+1)) days" +%Y%m%d)000000
               echo "<programme start=\"$s +0000\" stop=\"$e +0000\" channel=\"NBCNewYorkNews\"><title lang=\"en\">NBC New York News</title><desc lang=\"en\">NBC New York News</desc></programme>"
