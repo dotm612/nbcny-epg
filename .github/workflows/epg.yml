@@ -12,17 +12,23 @@ jobs:
       - uses: actions/checkout@v4
       - name: Generate epg.xml
         run: |
-          {
-            echo '<?xml version="1.0" encoding="UTF-8"?>'
-            echo '<tv generator-info-name="custom">'
-            echo '<channel id="NBCNewYorkNews"><display-name>NBC New York News</display-name></channel>'
-            for i in $(seq -1 36500); do
-              s=$(date -u -d "today + $i days" +%Y%m%d)000000
-              e=$(date -u -d "today + $((i+1)) days" +%Y%m%d)000000
-              echo "<programme start=\"$s +0000\" stop=\"$e +0000\" channel=\"NBCNewYorkNews\"><title lang=\"en\">NBC New York News</title><desc lang=\"en\">NBC New York News</desc></programme>"
-            done
-            echo '</tv>'
-          } > epg.xml
+          python3 - <<'PY'
+          from datetime import datetime, timedelta, timezone
+          DAYS = 365
+          fmt = "%Y%m%d%H%M%S"
+          start = (datetime.now(timezone.utc) - timedelta(days=1)).replace(hour=0, minute=0, second=0, microsecond=0)
+          out = [
+              '<?xml version="1.0" encoding="UTF-8"?>',
+              '<tv generator-info-name="custom">',
+              '<channel id="NBCNewYorkNews"><display-name>NBC New York News</display-name></channel>',
+          ]
+          for i in range((DAYS + 1) * 24):
+              s = start + timedelta(hours=i)
+              e = s + timedelta(hours=1)
+              out.append(f'<programme start="{s.strftime(fmt)} +0000" stop="{e.strftime(fmt)} +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>')
+          out.append('</tv>')
+          open("epg.xml", "w").write("\n".join(out) + "\n")
+          PY
       - name: Commit
         run: |
           git config user.name "github-actions"
