@@ -1,30 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv generator-info-name="custom">
 <channel id="NBCNewYorkNews"><display-name>NBC New York News</display-name></channel>
-<programme start="20261126000000 +0000" stop="20261126010000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
-<programme start="20261126010000 +0000" stop="20261126020000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
-<programme start="20261126020000 +0000" stop="20261126030000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
-<programme start="20261126030000 +0000" stop="20261126040000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
-<programme start="20261126040000 +0000" stop="20261126050000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
-<programme start="20261126050000 +0000" stop="20261126060000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
-<programme start="20261126060000 +0000" stop="20261126070000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
-<programme start="20261126070000 +0000" stop="20261126080000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
-<programme start="20261126080000 +0000" stop="20261126090000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
-<programme start="20261126090000 +0000" stop="20261126100000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
-<programme start="20261126100000 +0000" stop="20261126110000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
-<programme start="20261126110000 +0000" stop="20261126120000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
-<programme start="20261126120000 +0000" stop="20261126130000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
-<programme start="20261126130000 +0000" stop="20261126140000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
-<programme start="20261126140000 +0000" stop="20261126150000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
-<programme start="20261126150000 +0000" stop="20261126160000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
-<programme start="20261126160000 +0000" stop="20261126170000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
-<programme start="20261126170000 +0000" stop="20261126180000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
-<programme start="20261126180000 +0000" stop="20261126190000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
-<programme start="20261126190000 +0000" stop="20261126200000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
-<programme start="20261126200000 +0000" stop="20261126210000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
-<programme start="20261126210000 +0000" stop="20261126220000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
-<programme start="20261126220000 +0000" stop="20261126230000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
-<programme start="20261126230000 +0000" stop="20261127000000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
 <programme start="20261127000000 +0000" stop="20261127010000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
 <programme start="20261127010000 +0000" stop="20261127020000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
 <programme start="20261127020000 +0000" stop="20261127030000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
@@ -8785,4 +8761,28 @@
 <programme start="20271126210000 +0000" stop="20271126220000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
 <programme start="20271126220000 +0000" stop="20271126230000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
 <programme start="20271126230000 +0000" stop="20271127000000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
+<programme start="20271127000000 +0000" stop="20271127010000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
+<programme start="20271127010000 +0000" stop="20271127020000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
+<programme start="20271127020000 +0000" stop="20271127030000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
+<programme start="20271127030000 +0000" stop="20271127040000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
+<programme start="20271127040000 +0000" stop="20271127050000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
+<programme start="20271127050000 +0000" stop="20271127060000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
+<programme start="20271127060000 +0000" stop="20271127070000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
+<programme start="20271127070000 +0000" stop="20271127080000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
+<programme start="20271127080000 +0000" stop="20271127090000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
+<programme start="20271127090000 +0000" stop="20271127100000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
+<programme start="20271127100000 +0000" stop="20271127110000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
+<programme start="20271127110000 +0000" stop="20271127120000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
+<programme start="20271127120000 +0000" stop="20271127130000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
+<programme start="20271127130000 +0000" stop="20271127140000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
+<programme start="20271127140000 +0000" stop="20271127150000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
+<programme start="20271127150000 +0000" stop="20271127160000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
+<programme start="20271127160000 +0000" stop="20271127170000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
+<programme start="20271127170000 +0000" stop="20271127180000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
+<programme start="20271127180000 +0000" stop="20271127190000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
+<programme start="20271127190000 +0000" stop="20271127200000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
+<programme start="20271127200000 +0000" stop="20271127210000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
+<programme start="20271127210000 +0000" stop="20271127220000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
+<programme start="20271127220000 +0000" stop="20271127230000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
+<programme start="20271127230000 +0000" stop="20271128000000 +0000" channel="NBCNewYorkNews"><title lang="en">NBC New York News</title><desc lang="en">NBC New York News</desc></programme>
 </tv>
